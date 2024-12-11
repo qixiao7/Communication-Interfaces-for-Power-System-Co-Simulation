@@ -13,8 +13,8 @@ This approach facilitates data sharing between a local OPAL-RT system and a remo
 ********************************************
 ## Setup Instructions
 1. Install Required Google API Packages
-   pip install google-api-python-client google-auth
-2. Configure the Script: replace 'SERVICE_ACCOUNT_FILE' and 'shared_file_id' with your own path and file id.
+   'pip install google-api-python-client google-auth'
+3. Configure the Script: replace 'SERVICE_ACCOUNT_FILE' and 'shared_file_id' with your own path and file id.
    2.1 Provide the Path to Your Service Account JSON File
    To use the Google Drive API, you must set up a service account and obtain its credentials.
    Steps to Obtain the Service Account JSON File:
