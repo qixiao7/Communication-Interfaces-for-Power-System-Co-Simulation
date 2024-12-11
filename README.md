@@ -25,8 +25,7 @@ This approach facilitates data sharing between a local OPAL-RT system and a remo
    5) Assign an appropriate role (e.g., Project > Owner or Editor) to the service account for accessing Google Drive.
    6) After creating the service account, go to the Keys tab and click Add Key > Create New Key. Select JSON as the key type. This will download the service account JSON file to your computer.
    7) Place the JSON file in a secure location on your computer and provide its path in the script:
-   # Example
-   SERVICE_ACCOUNT_FILE = '/path/to/your/service_account_key.json'
+      SERVICE_ACCOUNT_FILE = '/path/to/your/service_account_key.json'
 
    2.2 Provide the Shared File ID
    To access the shared file in Google Drive, you need its unique File ID.
