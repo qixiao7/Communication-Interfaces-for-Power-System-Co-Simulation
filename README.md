@@ -34,8 +34,8 @@ This approach facilitates data sharing between a local OPAL-RT system and a remo
    2) Locate the file you want to share, right-click on it, and select Get link.
    3) Change the file's sharing permissions to grant access to the service account. You can do this by sharing the file with the service account's email address.
    4) Copy the shared file's link. It should look something like this:
-      https://drive.google.com/file/d/1aBcD_EfGhIjKlmNoPQRstUvwxYZ12345/view?usp=sharing
+      https://drive.google.com/file/d/hsfnjowlfmssnsfnwk154512dgdfgdg/view?usp=sharing
    5) Extract the File ID from the URL. The File ID is the part between /d/ and /view?. For example, in the link above, the File ID is:
-      1aBcD_EfGhIjKlmNoPQRstUvwxYZ12345
+      hsfnjowlfmssnsfnwk154512dgdfgdg
    6) Replace the placeholder in the script with your File ID:
       shared_file_id = '1aBcD_EfGhIjKlmNoPQRstUvwxYZ12345'
