@@ -38,4 +38,4 @@ This approach facilitates data sharing between a local OPAL-RT system and a remo
    5) Extract the File ID from the URL. The File ID is the part between /d/ and /view?. For example, in the link above, the File ID is:
       hsfnjowlfmssnsfnwk154512dgdfgdg
    6) Replace the placeholder in the script with your File ID:
-      shared_file_id = '1aBcD_EfGhIjKlmNoPQRstUvwxYZ12345'
+      shared_file_id = 'hsfnjowlfmssnsfnwk154512dgdfgdg'
